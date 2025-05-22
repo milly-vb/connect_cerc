@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect CERC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 24px;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://i.imgur.com/GktCvlS.png') no-repeat center center;
+      background-size: cover;
+      padding: 100px 20px;
+      text-align: center;
+      color: #fff;
+    }
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    .btn {
+      padding: 12px 24px;
+      background-color: #8B1E3F;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+      margin: 8px;
+      display: inline-block;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background-color: #A0522D;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    .section p, .section li {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #ddd;
+    }
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    footer {
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .social-icons {
+      margin-top: 15px;
+    }
+    .social-icons a {
+      color: #8B1E3F;
+      margin: 0 10px;
+      font-size: 24px;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .social-icons a:hover {
+      color: #A0522D;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Connect CERC</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#estudos">Estudos</a>
+      <a href="#login">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Plataforma Digital da CERC</h2>
+    <p>Unindo membros, líderes e ministérios com tecnologia e acolhimento.</p>
+    <a href="#login" class="btn">Acessar Plataforma</a>
+  </section>
+
+  <section id="sobre" class="section">
+    <h3>Sobre a Connect CERC</h3>
+    <p>A Connect CERC é a plataforma digital da Comunidade Evangélica Recomeçar em Cristo, criada para integrar ferramentas de gestão, comunicação e acolhimento. Desenvolvida para membros, líderes, pastores e administradores, ela reflete os valores de unidade e cuidado da igreja.</p>
+  </section>
+
+  <section id="servicos" class="section">
+    <h3>Serviços</h3>
+    <ul>
+      <li>✅ Cadastro e login de membros</li>
+      <li>✅ Geração de carteirinhas</li>
+      <li>✅ Gestão de ministérios</li>
+      <li>✅ Comunicação com lideranças</li>
+      <li>✅ Acompanhamento espiritual</li>
+    </ul>
+  </section>
+
+  <section id="agenda" class="section">
+    <h3>Agenda de Programações e Eventos</h3>
+    <p>Fique por dentro das atividades e eventos especiais da CERC. Confira nossa agenda completa clicando abaixo:</p>
+    <a href="https://calendar.google.com" target="_blank" class="btn">Ver Agenda</a>
+  </section>
+
+  <section id="estudos" class="section">
+    <h3>Estudos Bíblicos</h3>
+    <p>Aprofunde sua caminhada espiritual com nossos estudos bíblicos disponíveis online. Acesse conteúdos selecionados para todos os membros:</p>
+    <a href="https://drive.google.com" target="_blank" class="btn">Acessar Estudos</a>
+  </section>
+
+  <section id="login" class="section">
+    <h3>Login</h3>
+    <p>Acesse abaixo conforme seu perfil:</p>
+    <a href="https://forms.gle/login-membro" class="btn">Membro</a>
+    <a href="https://forms.gle/login-lider" class="btn">Líder</a>
+    <a href="https://forms.gle/login-pastor" class="btn">Pastor</a>
+    <a href="https://forms.gle/login-admin" class="btn">Administrador</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Comunidade Evangélica Recomeçar em Cristo. Todos os direitos reservados.
+    <div class="social-icons">
+      <a href="https://www.instagram.com/cercitaipuacu" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/cercitaipuacu" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.youtube.com/@cercitaipuacu" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+</body>
+</html>
